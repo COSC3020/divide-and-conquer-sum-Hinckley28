@@ -27,4 +27,4 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
-Answer: The runtime fo the algorithm I implemented is $\Theta$ (nlog n). This is because the algorithm is very similar to similar to the merge sort algorithm. The only difference is that the array is broken up into 3 differnt arrays at each recursive step instead of 2 and the elements in the array are added instead of compared and swapped. The recurence relation would be T(n) = { 1 if n <= 1,  3T(n/3) + n if n > 1}. 
+Answer: The runtime fo the algorithm I implemented is $\Theta$ (nlog n). This is because the algorithm is very similar to similar to the merge sort algorithm. The only difference is that the array is broken up into 3 differnt arrays at each recursive step instead of 2 and the elements in the array are added instead of compared and swapped. The recurence relation would be T(n) = { 1 if n <= 3,  3T(n/3) + 3 if n > 3}. 
