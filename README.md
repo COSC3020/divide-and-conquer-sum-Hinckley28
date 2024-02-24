@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/E1vcEWuv)
 # Divide and Conquer Sum
 
 In the lectures, we've covered merge sort, which uses a divide-and-conquer
@@ -25,3 +26,5 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+Answer: The runtime fo the algorithm I implemented is $\Theta$ (n). This is because the algorithm is very similar to similar to the merge sort algorithm. The only difference is that the array is broken up into 3 differnt arrays at each recursive step instead of 2 and the subarrays are not merged. The recurence relation would be T(n) = { 1 if n <= 3,  3T(n/3) + 3 if n > 3}. 
